@@ -4,19 +4,207 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>.:: Frank Judas – Kunstgalerie & Archiv ::.</title>
-    <meta name="description" content="Interaktive Kunstgalerie und Werkschau des Künstlers Frank Judas mit Ausstellung 1 (Pollock-Hommagen), Ausstellung 2 (ZERO-Arbeiten), interaktivem Atelier und klassischer 2005-Galeriekonsole." />
-    <meta property="og:title" content="Frank Judas – Kunstgalerie & Archiv" />
-    <meta property="og:description" content="Interaktive Kunstgalerie und Werkschau des Künstlers Frank Judas mit Ausstellung 1 (Pollock-Hommagen), Ausstellung 2 (ZERO-Arbeiten), interaktivem Atelier und klassischer 2005-Galeriekonsole." />
+    
+    <!-- Meta Information -->
+    <meta name="description" content="Interaktive Kunstgalerie und Werkschau des Künstlers Frank Judas mit Ausstellung 1 (Pollock-Hommagen), Ausstellung 2 (ZERO-Arbeiten), interaktivem Atelier und klassischer 2005-Galeriekonsole. Alle Original-Grafiken online über GitHub eingebunden." />
+    <meta name="keywords" content="Frank Judas, Kunstgalerie, Pollock Hommage, ZERO, Drip Painting, Hainichen, Atelier, Kunst, Galerie 2005, Originalkunst" />
+    <meta name="author" content="Frank Judas" />
+    <meta name="robots" content="index, follow" />
+    <meta name="theme-color" content="#1C1917" />
+
+    <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website" />
-    <meta property="og:image" content="/images/pics_start/start_left.gif" />
+    <meta property="og:url" content="https://github.com/Racingkonni/Frank" />
+    <meta property="og:site_name" content="Frank Judas – Kunstgalerie" />
+    <meta property="og:title" content=".:: Frank Judas – Kunstgalerie & Archiv ::." />
+    <meta property="og:description" content="Interaktive Werkschau des Künstlers Frank Judas: Ausstellung 1 (Pollock-Hommagen), Ausstellung 2 (ZERO-Arbeiten), interaktives Atelier und 2005-Galeriekonsole." />
+    <meta property="og:image" content="https://raw.githubusercontent.com/Racingkonni/Frank/main/images/pollock_homage_5.gif" />
+
+    <!-- Twitter Card -->
     <meta name="twitter:card" content="summary_large_image" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <meta name="twitter:title" content=".:: Frank Judas – Kunstgalerie & Archiv ::." />
+    <meta name="twitter:description" content="Interaktive Kunstgalerie und Werkschau von Frank Judas mit Original-Werken und Galeriekonsole." />
+    <meta name="twitter:image" content="https://raw.githubusercontent.com/Racingkonni/Frank/main/images/pollock_homage_5.gif" />
+
+    <!-- Favicon (Artistic Palette Icon) -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23C2410C' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'><circle cx='13.5' cy='6.5' r='.5' fill='%23C2410C'/><circle cx='17.5' cy='10.5' r='.5' fill='%23C2410C'/><circle cx='8.5' cy='7.5' r='.5' fill='%23C2410C'/><circle cx='6.5' cy='12.5' r='.5' fill='%23C2410C'/><path d='M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10c.926 0 1.648-.746 1.648-1.688 0-.437-.18-.835-.437-1.125-.29-.289-.438-.652-.438-1.125a1.64 1.64 0 0 1 1.668-1.668h1.996c3.051 0 5.563-2.512 5.563-5.563C22 6.5 17.5 2 12 2Z'/></svg>" />
+
+    <!-- Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+
+    <!-- Schema.org Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Person",
+          "@id": "https://github.com/Racingkonni/Frank#artist",
+          "name": "Frank Judas",
+          "jobTitle": "Bildender Künstler",
+          "description": "Künstler aus Hainichen, bekannt für expressive Pollock-Hommagen (Drip Painting mit Wandpigment auf Holz) und monochrome Relief- und ZERO-Arbeiten.",
+          "url": "http://frank-judas.de/",
+          "sameAs": [
+            "https://github.com/Racingkonni/Frank"
+          ]
+        },
+        {
+          "@type": "ExhibitionEvent",
+          "@id": "https://github.com/Racingkonni/Frank#exhibition1",
+          "name": "Ausstellung 1: Pollock-Hommagen (Drip-Paintings)",
+          "organizer": { "@id": "https://github.com/Racingkonni/Frank#artist" },
+          "description": "Erste Online-Ausstellung mit expressiven Schütt- und Drip-Paintings auf Holzträgern unter Verwendung von Wandpigmenten.",
+          "workFeatured": [
+            {
+              "@type": "VisualArtwork",
+              "name": "Pollock Homage 5",
+              "creator": { "@id": "https://github.com/Racingkonni/Frank#artist" },
+              "dateCreated": "2002",
+              "artMedium": "Wandabtönfarbe auf Holz",
+              "width": "220 cm",
+              "height": "70 cm",
+              "image": "https://raw.githubusercontent.com/Racingkonni/Frank/main/images/pollock_homage_5.gif"
+            },
+            {
+              "@type": "VisualArtwork",
+              "name": "Pollock Homage 1",
+              "creator": { "@id": "https://github.com/Racingkonni/Frank#artist" },
+              "dateCreated": "1996",
+              "artMedium": "Wandabtönfarbe auf Holz",
+              "width": "50 cm",
+              "height": "120 cm",
+              "image": "https://raw.githubusercontent.com/Racingkonni/Frank/main/images/pollock_homage_1.gif"
+            },
+            {
+              "@type": "VisualArtwork",
+              "name": "Pollock-Homage 2",
+              "creator": { "@id": "https://github.com/Racingkonni/Frank#artist" },
+              "dateCreated": "1999",
+              "artMedium": "Wandabtönfarbe auf Holz",
+              "width": "190 cm",
+              "height": "70 cm",
+              "image": "https://raw.githubusercontent.com/Racingkonni/Frank/main/images/pollock_2.gif"
+            },
+            {
+              "@type": "VisualArtwork",
+              "name": "Pollock 7",
+              "creator": { "@id": "https://github.com/Racingkonni/Frank#artist" },
+              "dateCreated": "2004",
+              "artMedium": "Wandabtönfarbe auf Holz",
+              "width": "90 cm",
+              "height": "90 cm",
+              "image": "https://raw.githubusercontent.com/Racingkonni/Frank/main/images/pollock_7.gif"
+            },
+            {
+              "@type": "VisualArtwork",
+              "name": "Studie Rot",
+              "creator": { "@id": "https://github.com/Racingkonni/Frank#artist" },
+              "dateCreated": "2001",
+              "artMedium": "Wandabtönfarbe auf Holz",
+              "width": "90 cm",
+              "height": "90 cm",
+              "image": "https://raw.githubusercontent.com/Racingkonni/Frank/main/images/studie_rot.gif"
+            }
+          ]
+        },
+        {
+          "@type": "ExhibitionEvent",
+          "@id": "https://github.com/Racingkonni/Frank#exhibition2",
+          "name": "Ausstellung 2: ZERO-Arbeiten & Monochromie",
+          "organizer": { "@id": "https://github.com/Racingkonni/Frank#artist" },
+          "description": "Zweite Online-Ausstellung mit meditativen, monochromen Strukturbildern und Formexperimenten in der Tradition der ZERO-Bewegung.",
+          "workFeatured": [
+            {
+              "@type": "VisualArtwork",
+              "name": "ZERO 1",
+              "creator": { "@id": "https://github.com/Racingkonni/Frank#artist" },
+              "dateCreated": "2004",
+              "artMedium": "Dispersionsrelief auf Holzplatte",
+              "width": "100 cm",
+              "height": "100 cm",
+              "image": "https://raw.githubusercontent.com/Racingkonni/Frank/main/images/zero1.gif"
+            },
+            {
+              "@type": "VisualArtwork",
+              "name": "ZERO 2",
+              "creator": { "@id": "https://github.com/Racingkonni/Frank#artist" },
+              "dateCreated": "2005",
+              "artMedium": "Strukturpaste und Pigment auf Holz",
+              "width": "110 cm",
+              "height": "110 cm",
+              "image": "https://raw.githubusercontent.com/Racingkonni/Frank/main/images/zero2.gif"
+            },
+            {
+              "@type": "VisualArtwork",
+              "name": "Surfen",
+              "creator": { "@id": "https://github.com/Racingkonni/Frank#artist" },
+              "dateCreated": "2003",
+              "artMedium": "Mischtechnik auf Holzgrund",
+              "width": "120 cm",
+              "height": "80 cm",
+              "image": "https://raw.githubusercontent.com/Racingkonni/Frank/main/images/surfen.gif"
+            },
+            {
+              "@type": "VisualArtwork",
+              "name": "Abendrot",
+              "creator": { "@id": "https://github.com/Racingkonni/Frank#artist" },
+              "dateCreated": "2003",
+              "artMedium": "Pigment dispersion auf Holz",
+              "width": "80 cm",
+              "height": "80 cm",
+              "image": "https://raw.githubusercontent.com/Racingkonni/Frank/main/images/abendrot.gif"
+            },
+            {
+              "@type": "VisualArtwork",
+              "name": "Morgennebel",
+              "creator": { "@id": "https://github.com/Racingkonni/Frank#artist" },
+              "dateCreated": "2004",
+              "artMedium": "Kreidegrund und Pigment auf Holz",
+              "width": "100 cm",
+              "height": "75 cm",
+              "image": "https://raw.githubusercontent.com/Racingkonni/Frank/main/images/morgennebel.gif"
+            }
+          ]
+        }
+      ]
+    }
+    </script>
   </head>
   <body class="bg-[#F8F7F4] text-[#1C1917] antialiased selection:bg-[#E5D7B7] selection:text-[#1C1917]">
+    <!-- Accessible / NoScript Fallback -->
+    <noscript>
+      <div style="max-width: 900px; margin: 40px auto; padding: 24px; font-family: serif; background: #fff; border: 1px solid #ddd; line-height: 1.6;">
+        <h1 style="font-size: 28px; margin-bottom: 8px;">Frank Judas – Kunstgalerie &amp; Archiv</h1>
+        <p style="color: #666; font-style: italic;">Original Werkschau: Ausstellung 1 (Pollock-Hommagen), Ausstellung 2 (ZERO-Arbeiten), Atelier Hainichen</p>
+        <hr style="margin: 20px 0;" />
+        <h2>Ausstellung 1: Pollock-Hommagen</h2>
+        <ul>
+          <li><strong>Pollock Homage 5 (2002)</strong> – Wandabtönfarbe auf Holz, ca. 70 x 220 cm – 300 EUR</li>
+          <li><strong>Pollock Homage 1 (1996)</strong> – Wandabtönfarbe auf Holz, ca. 120 x 50 cm – 150 EUR</li>
+          <li><strong>Pollock-Homage 2 (1999)</strong> – Wandabtönfarbe auf Holz, ca. 70 x 190 cm – verkauft</li>
+          <li><strong>Pollock 7 (2004)</strong> – Wandabtönfarbe auf Holz, ca. 90 x 90 cm – 220 EUR</li>
+          <li><strong>Studie Rot (2001)</strong> – Wandabtönfarbe auf Holz, ca. 90 x 90 cm – 180 EUR</li>
+        </ul>
+        <h2>Ausstellung 2: ZERO-Arbeiten</h2>
+        <ul>
+          <li><strong>ZERO 1 (2004)</strong> – Dispersionsrelief auf Holzplatte, ca. 100 x 100 cm – 350 EUR</li>
+          <li><strong>ZERO 2 (2005)</strong> – Strukturpaste und Pigment auf Holz, ca. 110 x 110 cm – 380 EUR</li>
+          <li><strong>Surfen (2003)</strong> – Mischtechnik auf Holzgrund, ca. 120 x 80 cm – 240 EUR</li>
+          <li><strong>Abendrot (2003)</strong> – Pigment dispersion auf Holz, ca. 80 x 80 cm – 190 EUR</li>
+          <li><strong>Morgennebel (2004)</strong> – Kreidegrund und Pigment auf Holz, ca. 100 x 75 cm – 210 EUR</li>
+        </ul>
+        <hr style="margin: 20px 0;" />
+        <p>Bilder und Galerie-Ressourcen: <a href="https://github.com/Racingkonni/Frank/tree/main/images">GitHub Images Repository</a></p>
+        <p>Bitte aktivieren Sie JavaScript für die vollständige interaktive 2005-Galeriekonsole und moderne Werkschau.</p>
+      </div>
+    </noscript>
+
+    <!-- React Root Mount Point -->
     <div id="root"></div>
+
+    <!-- Main React Application Entry Point -->
     <script type="module" src="/src/main.tsx"></script>
   </body>
 </html>
-
